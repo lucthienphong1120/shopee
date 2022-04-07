@@ -1,6 +1,6 @@
 
 function shuffer(){
-    fetch('http://127.0.0.1:5500/assets/js/db.json')
+    fetch('../db.json')
         .then(response => response.json())
         .then(list => {
             list = list.sort(() => Math.random() - 0.5)
