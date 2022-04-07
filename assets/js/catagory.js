@@ -1,6 +1,6 @@
 
 function shuffer(){
-    fetch('/assets/js/db.json')
+    fetch('https://www.ltp110.tk/shopee/assets/js/db.json')
         .then(response => response.json())
         .then(list => {
             list = list.sort(() => Math.random() - 0.5)
