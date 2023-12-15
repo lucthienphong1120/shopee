@@ -1,4 +1,4 @@
-const dataUrl = 'https://cdn.crfnetwork.cyou/database/shopee.json'
+const dataUrl = 'https://cdn.crfnetwork.com/database/shopee.json'
 
 fetch(dataUrl)
     .then(response => response.json())
