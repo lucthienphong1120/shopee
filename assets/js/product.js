@@ -26,7 +26,7 @@ function renderItem(items) {
         return `
         <div data="${item.id}" class="col l-2-4 m-3 c-6 home-product-item">
             <a class="home-product-item-link" href="#">
-                <div class="home-product-item__img" style="background-image: url(./assets/img/home/${item.id}.PNG);"></div>
+                <img class="home-product-item__img" src="./assets/img/home/${item.id}.PNG" alt="${item.name}">
                 <div class="home-product-item__info">
                     <h4 class="home-product-item__name">${item.name}</h4>
                     <div class="home-product-item__price">
